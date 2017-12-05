@@ -32,14 +32,14 @@ pressure decreases by 12 mbar for every 100 metres
 Calculated based on temperature, season, zone effect
 Humidity doubles with each 20 degree Fahrenheit decrease (http://ocw.usu.edu/Forest__Range__and_Wildlife_Sciences/Wildland_Fire_Management_and_Planning/unit4.htm) 
 
-### 1. Technologies used
+###1. Technologies used
 * Maven 3.0
 * Spring 4.1.6.RELEASE
 * HSQLDB 2.3.2
 * Embedded Jetty server
  
 
-### 2. To Run this project locally
+###2. To Run this project locally
 * Install Java
 * Install Maven  
  
@@ -63,14 +63,14 @@ To run tests
 $ mvn test
 ```
  
-### 3. To import this project into Eclipse IDE
+###3. To import this project into Eclipse IDE
 ```
 $ mvn eclipse:eclipse
 ```
 * Import into Eclipse via **existing projects into workspace** option.
 * Done. 
  
-### 4. Other references
+###4. Other references
 https://github.com/mkyong/spring-embedded-database
 Example for Spring MVC embedded DB 
 

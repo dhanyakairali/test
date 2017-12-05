@@ -21,7 +21,7 @@ public class WeatherUtilTest {
 	    	double temperatureLowAltitude = WeatherUtils.getTemperature(23.112719, 96.0 , date,6,18);
 	    	double temperatureHighAltitude = WeatherUtils.getTemperature(23.112719, 1684.0 , date,6,18);
 	    	
-	    	Assert.assertTrue("Temperature is higher at lower altitudes  .", temperatureLowAltitude>temperatureHighAltitude);
+	    	Assert.assertTrue("Temperature is higher at lower altitudes.", temperatureLowAltitude>temperatureHighAltitude);
 	    	 
 	    }
 	    
